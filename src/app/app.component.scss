@@ -1,0 +1,28 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    gap: 16px;
+
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: repeat(2, 150px);
+    }
+}
+
+.mat-toolbar {
+    background-color: #ffe0e0;
+}
+
+h1 {
+    color:black;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+}
+
+p {
+    text-align: right;
+}
